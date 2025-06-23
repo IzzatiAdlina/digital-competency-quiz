@@ -6,9 +6,10 @@ int main() {
     int score = 0;
     string answer;
 
-    cout << "==============================\n";
-    cout << " Smart Skills Self-Check Quiz \n";
-    cout << "==============================\n";
+   cout << "==============================\n";
+   cout << " Smart Skills Self-Check Quiz \n";
+   cout << "==============================\n";
+   cout << "==== QUIZ START ====\n";
 
     cout << "Enter your name: ";
     getline(cin, name);
@@ -16,8 +17,7 @@ int main() {
     cout << "\nWelcome, " << name << "! Let's begin.\n";
     cout << "You can score up to 10 points.\n";
     cout << "\nNote: Minimum score to pass is 6 out of 10.\n";
-    cout << "\n------------------------------\n";
-    cout << "==== QUIZ START ====\n";
+  
 
     // Q1
     cout << "\n------------------------------\n";
@@ -181,10 +181,10 @@ int main() {
 	else if(score >= 6)
     cout << "✅ Fair attempt! Continue enhancing your knowledge.\n";
 	else
-    cout << "⚠️ You need improvement. Explore more digital learning resources.\n";
+    cout << "⚠ You need improvement. Explore more digital learning resources.\n";
 
     cout << "\nThank you for taking the Smart Skills Quiz!\n";
     cout << "Share your score with your friends and challenge them too!\n";
 
-    return 0;
+    return 0;
 }
