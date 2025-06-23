@@ -175,6 +175,7 @@ int main() {
 
     // Result
     cout << "\nYour score is: " << score << " out of 11\n";
+    cout << "Percentage: " << (score * 10) << "%\n";
 
     if(score >= 9)
     cout << "🌟 Excellent performance! You have mastered digital basics.\n";
