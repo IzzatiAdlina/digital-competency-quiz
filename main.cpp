@@ -13,6 +13,7 @@ int main() {
 
     cout << "Enter your name: ";
     getline(cin, name);
+    cin.ignore();
 
     cout << "\nWelcome, " << name << "! Let's begin.\n";
     cout << "You can score up to 10 points.\n";
