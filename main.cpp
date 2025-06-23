@@ -14,6 +14,7 @@ int main() {
     getline(cin, name);
 
     cout << "\nWelcome, " << name << "! Let's begin.\n";
+    cout << "You can score up to 10 points.\n";
     cout << "\nNote: Minimum score to pass is 6 out of 10.\n";
     cout << "\n------------------------------\n";
     cout << "==== QUIZ START ====\n";
