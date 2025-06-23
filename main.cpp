@@ -15,6 +15,8 @@ int main() {
 
     cout << "\nWelcome, " << name << "! Let's begin.\n";
     cout << "\nNote: Minimum score to pass is 6 out of 10.\n";
+    cout << "\n------------------------------\n";
+    cout << "==== QUIZ START ====\n";
 
     // Q1
     cout << "\n------------------------------\n";
