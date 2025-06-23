@@ -176,8 +176,9 @@ int main() {
 }
 
     // Result
-    cout << "\nYour score is: " << score << " out of 11\n";
-    cout << "Percentage: " << (score * 10) << "%\n";
+    double percentage = (double(score) / totalQuestions) * 100;
+    cout << "\nYour score is: " << score << " out of " << totalQuestions << "\n";
+    cout << "Percentage: " << percentage << "%\n";
     cout << "Correct answers: " << score << "\n";
     cout << "Wrong answers: " << 10 - score << "\n";
 
