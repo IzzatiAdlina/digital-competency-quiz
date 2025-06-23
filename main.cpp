@@ -86,8 +86,15 @@ int main() {
     cin >> answer;
     if(answer == "b" || answer == "B") score++;
 
+    //11
+    cout << "\n11. What is one way to protect your personal data online?\n";
+    cout << "a) Share everything openly\nb) Use strong privacy settings\nc) Post your passwords\n";
+    cout << "Answer: ";
+    cin >> answer;
+    if(answer == "b" || answer == "B") score++;
+
     // Result
-    cout << "\nYour score is: " << score << " out of 10\n";
+    cout << "\nYour score is: " << score << " out of 11\n";
 
     if(score >= 9)
     cout << "🌟 Excellent performance! You have mastered digital basics.\n";
