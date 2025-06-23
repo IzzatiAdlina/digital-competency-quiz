@@ -90,11 +90,11 @@ int main() {
     cout << "\nYour score is: " << score << " out of 10\n";
 
     if(score >= 9)
-        cout << "🌟 Excellent! You're digitally smart!\n";
-    else if(score >= 6)
-        cout << "✅ Good job! Keep learning more.\n";
-    else
-        cout << "⚠️ Keep practicing to improve your digital skills!\n";
+    cout << "🌟 Excellent performance! You have mastered digital basics.\n";
+	else if(score >= 6)
+    cout << "✅ Fair attempt! Continue enhancing your knowledge.\n";
+	else
+    cout << "⚠️ You need improvement. Explore more digital learning resources.\n";
 
     return 0;
 }
