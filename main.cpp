@@ -18,8 +18,8 @@ int main() {
     cin.ignore();
 
     cout << "\nWelcome, " << name << "! Let's begin.\n";
-    cout << "You can score up to 10 points.\n";
-    cout << "\nNote: Minimum score to pass is 6 out of 10.\n";
+    cout << "You can score up to 11 points.\n";
+    cout << "\nNote: Minimum score to pass is 6 out of 11.\n";
   
 
     // Q1
