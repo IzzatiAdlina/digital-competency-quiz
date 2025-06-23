@@ -6,7 +6,7 @@ int main() {
     string name;
     int score = 0;
     int totalQuestions = 11;
-    string answer;
+    string answer; //this is for anwer variable
 
    cout << "==============================\n";
    cout << " Smart Skills Self-Check Quiz \n";
