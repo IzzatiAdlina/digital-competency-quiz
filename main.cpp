@@ -26,7 +26,6 @@ int main() {
     cout << "a) Automatic Internet\nb) Artificial Intelligence\nc) Advanced Interface\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "b" || answer == "B") {
    score++;
@@ -41,7 +40,6 @@ int main() {
     cout << "a) 123456\nb) Hello@2024!\nc) myname\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "b" || answer == "B") {
    score++;
@@ -56,7 +54,6 @@ int main() {
     cout << "a) Fishing game\nb) Fake email trick\nc) A mobile feature\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "b" || answer == "B") {
    score++;
@@ -71,7 +68,6 @@ int main() {
     cout << "a) Firefox\nb) Google\nc) Android\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "a" || answer == "A") {
    score++;
@@ -86,7 +82,6 @@ int main() {
     cout << "a) Footprint scanned by phone\nb) Online activity trace\nc) Step counter app\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "b" || answer == "B") {
    score++;
@@ -101,7 +96,6 @@ int main() {
     cout << "a) Use no password\nb) Share password with friends\nc) Enable screen lock and antivirus\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "c" || answer == "C") {
    score++;
@@ -116,7 +110,6 @@ int main() {
     cout << "a) Click it quickly\nb) Ignore or report it\nc) Share it on social media\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "b" || answer == "B") {
    score++;
@@ -131,7 +124,6 @@ int main() {
     cout << "a) Hyper Text Transfer Protocol Secure\nb) High Tech Transfer Protocol Software\nc) Hackable Test Site\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "a" || answer == "A") {
    score++;
@@ -146,7 +138,6 @@ int main() {
     cout << "a) Zoom\nb) Paint\nc) Calculator\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "a" || answer == "A") {
    score++;
@@ -161,7 +152,6 @@ int main() {
     cout << "a) Using 2 phones\nb) Two ways to log in securely\nc) Logging in twice\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "b" || answer == "B") {
    score++;
@@ -176,7 +166,6 @@ int main() {
     cout << "a) Share everything openly\nb) Use strong privacy settings\nc) Post your passwords\n";
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
-    cin.ignore();
     getline(cin, answer);
     if(answer == "b" || answer == "B") {
    score++;
