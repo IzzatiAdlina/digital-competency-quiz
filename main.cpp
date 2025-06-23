@@ -14,6 +14,7 @@ int main() {
     getline(cin, name);
 
     cout << "\nWelcome, " << name << "! Let's begin.\n";
+    cout << "\nNote: Minimum score to pass is 6 out of 10.\n";
 
     // Q1
     cout << "\n1. What does AI stand for?\n";
