@@ -26,7 +26,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "b" || answer == "B") score++;
+    if(answer == "b" || answer == "B") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q2
     cout << "\n------------------------------\n";
@@ -35,7 +40,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "b" || answer == "B") score++;
+    if(answer == "b" || answer == "B") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q3
     cout << "\n------------------------------\n";
@@ -44,7 +54,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "b" || answer == "B") score++;
+    if(answer == "b" || answer == "B") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q4
     cout << "\n------------------------------\n";
@@ -53,7 +68,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "a" || answer == "A") score++;
+    if(answer == "a" || answer == "A") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q5
     cout << "\n------------------------------\n";
@@ -62,7 +82,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "b" || answer == "B") score++;
+    if(answer == "b" || answer == "B") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q6
     cout << "\n------------------------------\n";
@@ -71,7 +96,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "c" || answer == "C") score++;
+    if(answer == "c" || answer == "C") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q7
     cout << "\n------------------------------\n";
@@ -80,7 +110,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "b" || answer == "B") score++;
+    if(answer == "b" || answer == "B") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q8
     cout << "\n------------------------------\n";
@@ -89,7 +124,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "a" || answer == "A") score++;
+    if(answer == "a" || answer == "A") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q9
     cout << "\n------------------------------\n";
@@ -98,7 +138,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "a" || answer == "A") score++;
+    if(answer == "a" || answer == "A") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Q10
     cout << "\n------------------------------\n";
@@ -107,7 +152,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "b" || answer == "B") score++;
+    if(answer == "b" || answer == "B") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     //11
     cout << "\n------------------------------\n";
@@ -116,7 +166,12 @@ int main() {
     cout << "Please type a, b, or c.\n";
     cout << "Answer: ";
     cin >> answer;
-    if(answer == "b" || answer == "B") score++;
+    if(answer == "b" || answer == "B") {
+   score++;
+   cout << "Correct!\n";
+} else {
+   cout << "Wrong!\n";
+}
 
     // Result
     cout << "\nYour score is: " << score << " out of 11\n";
