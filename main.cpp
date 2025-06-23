@@ -125,5 +125,8 @@ int main() {
 	else
     cout << "⚠️ You need improvement. Explore more digital learning resources.\n";
 
+    cout << "\nThank you for taking the Smart Skills Quiz!\n";
+    cout << "Share your score with your friends and challenge them too!\n";
+
     return 0;
 }
