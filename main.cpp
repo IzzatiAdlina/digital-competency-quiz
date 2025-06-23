@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -178,6 +179,7 @@ int main() {
     // Result
     double percentage = (double(score) / totalQuestions) * 100;
     cout << "\nYour score is: " << score << " out of " << totalQuestions << "\n";
+    cout << fixed << setprecision(2);
     cout << "Percentage: " << percentage << "%\n";
     cout << "Correct answers: " << score << "\n";
     cout << "Wrong answers: " << 10 - score << "\n";
